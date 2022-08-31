@@ -382,6 +382,7 @@ header .container {
 
 .icon {
   border: rgba(175, 177, 184, 1) solid 1px;
+  fill: rgba(175, 177, 184, 1);
   border-radius: 5px;
 }
 
@@ -389,7 +390,7 @@ header .container {
   margin-right: 30px;
 }
 
-.icon:hover path,
-.icon:focus path {
+.icon:hover {
   fill: #2196f3;
+  border: #2196f3 solid 1px;
 }
