@@ -379,3 +379,17 @@ header .container {
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
+
+.icon {
+  border: rgba(175, 177, 184, 1) solid 1px;
+  border-radius: 5px;
+}
+
+.icon:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icon:hover path,
+.icon:focus path {
+  fill: #2196f3;
+}
