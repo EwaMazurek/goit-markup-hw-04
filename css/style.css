@@ -126,7 +126,7 @@ header .container {
 .order-section {
   background-color: var(--bcg-main-footer);
   background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
-    url('/images/background.jpg');
+    url('https://raw.githubusercontent.com/EwaMazurek/goit-markup-hw-04/main/images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
