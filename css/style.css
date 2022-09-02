@@ -352,6 +352,42 @@ h6 {
   background-color: #2196f3;
 }
 
+/* ikonki */
+.icon {
+  border: rgba(175, 177, 184, 1) solid 1px;
+  fill: rgba(175, 177, 184, 1);
+  border-radius: 5px;
+}
+
+.icon:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icon:hover {
+  fill: #2196f3;
+  border: #2196f3 solid 1px;
+}
+
+.social-links {
+  padding-top: 16px;
+  justify-content: center;
+}
+
+.social-links li:not(:last-child) {
+  padding-right: 10px;
+}
+
+.social-icon {
+  fill: rgba(175, 177, 184, 1);
+
+  border-radius: 50%;
+}
+
+.social-icon:hover {
+  fill: white;
+  background-color: #2196f3;
+}
+
 /* portfolio.html */
 
 /* przyciski */
@@ -404,6 +440,11 @@ h6 {
   width: 370px;
 }
 
+.portfolio-projects-li:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .portfolio-projects-li > figure {
   margin: 0;
 }
@@ -427,39 +468,4 @@ h6 {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--description-text-color);
-}
-
-.icon {
-  border: rgba(175, 177, 184, 1) solid 1px;
-  fill: rgba(175, 177, 184, 1);
-  border-radius: 5px;
-}
-
-.icon:not(:last-child) {
-  margin-right: 30px;
-}
-
-.icon:hover {
-  fill: #2196f3;
-  border: #2196f3 solid 1px;
-}
-
-.social-links {
-  padding-top: 16px;
-  justify-content: center;
-}
-
-.social-links li:not(:last-child) {
-  padding-right: 10px;
-}
-
-.social-icon {
-  fill: rgba(175, 177, 184, 1);
-
-  border-radius: 50%;
-}
-
-.social-icon:hover {
-  fill: white;
-  background-color: #2196f3;
 }
