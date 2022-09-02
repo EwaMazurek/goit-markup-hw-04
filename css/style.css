@@ -24,6 +24,8 @@ body {
   --btn-inactive-txt: #212121;
   --border-color-header: #ececec;
   --border-color-portoflio: #eeeeee;
+  --footer-social-icon-bg: rgba(255, 255, 255, 0.1);
+  --icon-inactive: rgba(175, 177, 184, 1);
 }
 
 ul {
@@ -104,8 +106,9 @@ header .container {
   padding-left: 371px;
 }
 
-.header-contacts li:hover {
-  fill: #2196f3;
+.header-contacts li:hover,
+.header-contacts li:focus {
+  fill: var(--element-focus);
 }
 
 .nav-link {
@@ -116,6 +119,7 @@ header .container {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--element-focus);
+  fill: var(--element-focus);
 }
 
 /* main */
@@ -276,7 +280,7 @@ h6 {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: white;
+  color: var(--h1-color);
 }
 
 .footer-style {
@@ -343,19 +347,20 @@ h6 {
 }
 
 .website-social-icon {
-  fill: white;
+  fill: var(--btn-active-txt);
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--footer-social-icon-bg);
 }
 
-.website-social-icon:hover {
-  background-color: #2196f3;
+.website-social-icon:hover,
+.website-social-icon:focus {
+  background-color: var(--element-focus);
 }
 
 /* ikonki */
 .icon {
-  border: rgba(175, 177, 184, 1) solid 1px;
-  fill: rgba(175, 177, 184, 1);
+  border: var(--icon-inactive) solid 1px;
+  fill: var(--icon-inactive);
   border-radius: 5px;
 }
 
@@ -363,9 +368,10 @@ h6 {
   margin-right: 30px;
 }
 
-.icon:hover {
-  fill: #2196f3;
-  border: #2196f3 solid 1px;
+.icon:hover,
+.icon:focus {
+  fill: var(--element-focus);
+  border: var(--element-focus) solid 1px;
 }
 
 .social-links {
@@ -378,14 +384,15 @@ h6 {
 }
 
 .social-icon {
-  fill: rgba(175, 177, 184, 1);
+  fill: var(--icon-inactive);
 
   border-radius: 50%;
 }
 
-.social-icon:hover {
-  fill: white;
-  background-color: #2196f3;
+.social-icon:hover,
+.social-icon:focus {
+  fill: var(--btn-active-txt);
+  background-color: var(--element-focus);
 }
 
 /* portfolio.html */
